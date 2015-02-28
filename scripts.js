@@ -26,7 +26,9 @@
 		data.addColumn('string', 'Topping');
 		data.addColumn('number', 'Slices');
 		data.addRows(arraysData);
-
+		
+		var myHtitle = 'Horizontal Axis Title'
+		var myVtitle = 'Vertical Axis Title'
 
         // Set chart options
         var options = {'title':'How Many Vegetables I Knocked Off My Plate Last Night',
@@ -35,8 +37,8 @@
 						'hAxis':{},
 						'vAxis':{}
 						};
-				options.hAxis.title = 'Horizontal Axis Title';		
-				options.vAxis.title = 'Vertical Axis Title';
+				options.hAxis.title = myHtitle;		
+				options.vAxis.title = myVtitle;
 
 
         // Instantiate and draw our chart, passing in some options.
