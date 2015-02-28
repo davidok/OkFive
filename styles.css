@@ -1,0 +1,17 @@
+#chart_div{
+	border:ridge 10px red;
+	
+}
+
+.col-md-2{
+	color:#ff0000;
+}
+.col-md-3{
+	color:purple;
+}
+.col-md-7{
+	color:blue;
+}
+.col-md-9{
+	color:green;
+}
