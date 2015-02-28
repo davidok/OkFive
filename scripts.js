@@ -32,9 +32,11 @@
         var options = {'title':'How Many Vegetables I Knocked Off My Plate Last Night',
 						'width':600,
 						'height':500,
-						'hAxis':{}
+						'hAxis':{},
+						'vAxis':{}
 						};
 				options.hAxis.title = 'Horizontal Axis Title';		
+				options.vAxis.title = 'Vertical Axis Title';
 
 
         // Instantiate and draw our chart, passing in some options.
